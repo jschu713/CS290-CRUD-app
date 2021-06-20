@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS 290 - HW6 - Databases</title>
+</head>
+
+<body>
+    <!-- Add Row Form -->
+    <!-- name, reps, weight, unit, date, submit btn -->
+    <h1>Add Form</h1>
+    <form id="addForm">
+        <input type="text" name="name" id="name" placeholder="Name">
+        <input type="number" name="reps" id="reps" placeholder="Reps">
+        <input type="number" name="weight" id="weight" placeholder="Weight">
+        <input type="radio" id="lbs" name="unit" value="lbs">
+        <label for="lbs">Pounds</label>
+        <input type="radio" id="kgs" name="unit" value="kgs">
+        <label for="kgs">Kilograms</label>
+        <input type="date" name="date" id="date">
+        <input type="submit" value="submit">
+    </form>
+
+    <!-- Table of Data (added with JS) -->
+    <!-- rows w/ id, name, reps, weight, unit, date, update btn, delete btn -->
+    <h1 id="table-title">Workouts Table</h1>
+
+    <br />
+    <!-- <button id="reset-table">Reset Table</button> -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
